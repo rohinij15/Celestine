@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&family=Open+Sans:wght@600&family=PT+Sans&family=Raleway:wght@300;600&display=swap" rel="stylesheet"> 
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body style="background-color:#ffdcd4">
+  <table style = "width:100%">
+    <tr> 
+      <th style="background-color:white"</th>
+    </tr>  
+  </table>
+    <table>
+      <div id="top">
+      
+      <th class = "topBar"> <a href = "aboutUs.html" style = "color:#a3c1ff;"><h2>About us </h2></a></th>
+      <th class = "topBar"><a href = "contactUs.html" style = "color:#a3c1ff;"> <h2> Contact us </h2></a></th>
+      <th class = "topBar" ><a href = "advertise.html" style = "color:#a3c1ff;"> <h2> Advertise your Business </h2></a></th>
+      <th class = "topBar" ><a href = "mission.html" style = "color:#a3c1ff;"> <h2> Mission </h2></a></th>
+      </div>
+    </table> 
+      
+  <br>
+    <table style = "width:100%">
+     <tr> 
+        <th style="background-color:white"></th>
+      </tr>  
+    </table>
+  
+
+    
+  <center><h1> Celestine</h1></center>
+  <h4><center> Be transparent with your local businesses and stay connected with them safely</h4></center>
+  <form>
+  
+ <center><input type ="text" id="city" style= "text-align:center;" placeholder="Type in Your City to Find Local Businesses Around You"></center>
+</form>
+<br>
+<center><button onclick="search()" id = "searchCity"> Search </button></center>
+
+
+<table style="width:100%;">
+  <tr>
+    <center><img id = "table" src = "safe.jpeg"></center>
+  </tr>
+</table>
+
+
+
+<script>
+function search(){
+var value = document.getElementById("city");
+
+if( document.getElementById("city").value == 'Mukilteo' ){     var win = window.open('Mcity.html' ,'_self',false);
+  win.focus(); 
+  
+
+}else if( document.getElementById("city").value == 'mukilteo' ){     var win = window.open('Mcity.html' ,'_self',false);
+  win.focus(); 
+}else if( document.getElementById("city").value == 'muckilteo' ){     var win = window.open('Mcity.html' ,'_self',false);
+  win.focus(); 
+}
+
+
+  
+
+}
+
+</script>
+
+  </body>
+</html>

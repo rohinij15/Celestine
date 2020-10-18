@@ -1,0 +1,84 @@
+<!DOCTYPE>
+<html>
+<head>
+<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&family=Open+Sans:wght@600&family=PT+Sans&family=Raleway:wght@300;600&display=swap" rel="stylesheet">
+  </head>
+<body style="background-color:#c4d7ff">
+  <table style = "width:100%">
+    <tr> 
+      <th style="background-color:white"></th>
+    </tr>  
+  </table>
+    <h1 id = "contact"><center>Local Businesses in Mukilteo<center></h1>
+   <table style = "width:100%">
+    <tr> 
+      <th style="background-color:white"></th>
+    </tr>  
+  </table >
+  <br>
+  <table style = "width:100%">
+    <tr>
+      <th class="Titles"> Sue's Cafe </th>
+      </tr>
+      <tr>
+      <th><button onclick="leadR()" class= "allImages" class = "allButtons" id="RButton"></button></th>
+      </tr>
+      <tr>
+        <th style = "color:gray;">Rating: 4 Stars</th>
+      </tr>
+  </table>
+  <br>
+  <br>
+  <table style = "width:100%">
+    <tr>
+      <th class="Titles"> Jerry's Necklace Store </th>
+      </tr>
+      <tr>
+    <th><button onclick="leadJ()" class= "allImages" class = "allButtons" id="JButton"></button> </th>
+    </tr>
+    <tr>
+        <th style = "color:gray;">Rating: 3 Stars</th>
+      </tr>
+    </table>
+    <br>
+    <br>
+    <table style ="width:100%">
+      <tr>
+      <th class = "Titles"> The Ideal Clothes</th>
+      </tr>
+      <tr>
+    <th><button onclick="leadC()" class= "allImages"class = "allButtons" id="CButton"></button>
+      </th>
+      </tr>
+      <tr>
+        <th style = "color:gray;">Rating: 5 Stars</th>
+      </tr>
+  </table>
+
+  <script>
+    function leadR(){
+//var value = document.getElementById("R");
+var win = window.open('Restaurant.html' ,'_self',false);
+  win.focus(); 
+  
+}
+function leadJ(){
+//var value = document.getElementById("R");
+var win = window.open('Jewelry.html' ,'_self',false);
+  win.focus(); 
+  
+}
+function leadC(){
+//var value = document.getElementById("R");
+var win = window.open('Clothes.html' ,'_self',false);
+  win.focus(); 
+  
+}
+
+    </script>
+</body>
+</html>
